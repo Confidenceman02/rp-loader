@@ -1,0 +1,32 @@
+
+body {
+  background: #ffffff;
+}
+
+.spinner-wrap {
+  width: 100%;
+  text-align: center;
+}
+
+.rp-spinner {
+  animation: rp-spinner 0.9s linear infinite;
+}
+
+.rp-spinner:nth-child(1) {
+  animation-delay: -0.8s;
+}
+
+.rp-spinner:nth-child(2) {
+  animation-delay: -0.7s;
+}
+.rp-spinner:nth-child(2) {
+  animation-delay: -0.6s;
+}
+@keyframes rp-spinner {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.1;
+  }
+}
